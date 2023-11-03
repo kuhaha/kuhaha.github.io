@@ -26,6 +26,6 @@
   alternative to absolute imports, especially when dealing with complex package layouts
   where using absolute imports would be unnecessarily verbose
 8. Wildcard imports (from <module> import *) should be avoided.
-9 .Module level “dunders” (i.e. names with two leading and two trailing underscores) such as
+9. Module level “dunders” (i.e. names with two leading and two trailing underscores) such as
   `__all__`, `__author__`, `__version__`, etc. should be placed after the module docstring 
   but before any import statements except from __future__ imports. 
