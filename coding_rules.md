@@ -1,6 +1,6 @@
 # Coding Rules
 ## Directories/Files
-1. name local/private variables/functions/modules with a leading undersoce, such as _mymodule.py 
+1. name local/private variables/functions/modules with a leading undersoce, such as `_mymodule.py`
 2. alias imported modules with a leading undersocre, such as
 ```
   import scipy as _sp
