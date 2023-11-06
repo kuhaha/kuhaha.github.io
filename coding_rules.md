@@ -9,10 +9,9 @@
 ```
 3. package related modules in a directory
 4. create an `__init__.py` file in package directory, export the most common interface
-  `__all__` is a list of strings defining what symbols in a module will be exported
-   when from <module> import * is used on the module.
-   It's a list of public objects of that module, as interpreted by import *.
-   It overrides the default of hiding everything that begins with an underscore.
+  - `__all__` is a list of strings defining what symbols in a module will be exported
+   when from <module> import * is used on the module. 
+  - `__all__` is a list of public objects of that module, as interpreted by `import *.` It overrides the default of hiding everything that begins with an underscore.
 ```
   __all__= ["foo", "bar"]`
 ```
