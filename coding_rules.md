@@ -9,10 +9,7 @@
 ```
 3. package related modules in a directory
 4. create an `__init__.py` file in package directory, export the most common interface
-    - `__all__` is a list of public objects of that module, as interpreted by `import *`. It overrides the default of hiding everything that begins with an underscore.
-```
-  __all__= ["foo", "bar"]`
-```
+    - `__all__` is a list of public objects of that module, as interpreted by `import *`. It overrides the default of hiding everything that begins with an underscore. `__all__= ["foo", "bar"]`
 6. [optionally] put packages/subpackages under namespace 
 
 ## Code Layout - pep8
