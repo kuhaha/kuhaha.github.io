@@ -3,9 +3,9 @@
 1. name local/private variables/functions/modules with a leading undersoce, such as _mymodule.py 
 2. alias imported modules with a leading undersocre, such as
 ```
-    import scipy as _sp
-    import numpy as _np
-    import pandas as _pd
+  import scipy as _sp
+  import numpy as _np
+  import pandas as _pd
 ```
 3. package related modules in a directory
 4. create an `__init__.py` file in package directory, export the most common interface
