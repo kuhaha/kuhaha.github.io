@@ -13,8 +13,10 @@
    when from <module> import * is used on the module.
    It's a list of public objects of that module, as interpreted by import *.
    It overrides the default of hiding everything that begins with an underscore.
-   `__all__= ["foo", "bar"]`
-5. [optionally] put packages/subpackages under namespace 
+```
+  __all__= ["foo", "bar"]`
+```
+6. [optionally] put packages/subpackages under namespace 
 
 ## Code Layout - pep8
 1. Use 4 spaces per indentation level.
