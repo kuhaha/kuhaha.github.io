@@ -2,16 +2,17 @@
 ## Directories/Files
 1. name local/private variables/functions/modules with a leading undersoce, such as _mymodule.py 
 2. alias imported modules with a leading undersocre, such as
-   import scipy as _sp
+```import scipy as _sp
    import numpy as _np
    import pandas as _pd
+```
 3. package related modules in a directory
-4. create an __init__.py file in package directory, export the most common interface
-   __all__ is a list of strings defining what symbols in a module will be exported
+4. create an `__init__.py` file in package directory, export the most common interface
+  `__all__` is a list of strings defining what symbols in a module will be exported
    when from <module> import * is used on the module.
    It's a list of public objects of that module, as interpreted by import *.
    It overrides the default of hiding everything that begins with an underscore.
-   __all__= ["foo", "bar"]
+   `__all__= ["foo", "bar"]`
 5. [optionally] put packages/subpackages under namespace 
 
 ## Code Layout - pep8
